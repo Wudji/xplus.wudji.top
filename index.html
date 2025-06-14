@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>服务暂停通知</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .glass-container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      max-width: 600px;
+      color: #111827;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      word-break: break-all;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-container">
+    <h1>服务暂停通知</h1>
+    <p>由于 <strong>API trust-based attacks</strong> 原因，本站暂停提供服务，恢复时间待定，感谢您的理解与支持。</p>
+    <p>目前您可以通过以下方式下载本整合包：</p>
+    <ul>
+      <li>百度网盘：<a href="https://pan.baidu.com/s/1zHZBubmpm1WhSqNxGaREyg?pwd=9aq4" target="_blank">https://pan.baidu.com/s/1zHZBubmpm1WhSqNxGaREyg?pwd=9aq4</a></li>
+      <li>夸克网盘：<a href="https://pan.quark.cn/s/f198ef967468" target="_blank">https://pan.quark.cn/s/f198ef967468</a></li>
+      <li>Modrinth（fabric 版本）：<a href="https://modrinth.com/modpack/xplus-2.0-modpack-global" target="_blank">https://modrinth.com/modpack/xplus-2.0-modpack-global</a></li>
+      <li>Modrinth（neoforge 版本）：<a href="https://modrinth.com/modpack/xplus-periotable-modpack-neoforge" target="_blank">https://modrinth.com/modpack/xplus-periotable-modpack-neoforge</a></li>
+    </ul>
+  </div>
+</body>
+</html>
